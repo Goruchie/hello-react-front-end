@@ -30,7 +30,7 @@
 
 # 📖 Hello Webpack <a name="about-project"></a>
 
->  This is a project that shows you in the web-browser some greeting in different languages every time you refresh the page.
+>  This is an app that shows you some greetings from an [API created with rails](https://github.com/Goruchie/hello-rails-back-end/pull/1)in different languages every time you refresh the page.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -64,7 +64,7 @@
 
 > The next key features are availble in this project.
 
-- Refresh the page to see diffent types of greetings.
+- Refresh the page to see diffent types of greetings from a rails API.
 
 
   
