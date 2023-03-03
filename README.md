@@ -1,70 +1,230 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello-rails-app ](#-hello-rails-app-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT DESCRIPTION -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📖 Hello Webpack <a name="about-project"></a>
 
-### `npm test`
+>  This is a project that shows you in the web-browser some greeting in different languages every time you refresh the page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🛠 Built With <a name="built-with"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tech Stack <a name="tech-stack"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://code.visualstudio.com/">Viual Studio Code</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby</a></li>
+  </ul>
+</details>
 
-### `npm run eject`
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- Features -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Features <a name="key-features"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> The next key features are availble in this project.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Refresh the page to see diffent types of greetings.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- LIVE DEMO -->
 
-### Code Splitting
+## 🚀 Live Demo <a name="live-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> You can see the deployment once it is executed in the next link.
 
-### Analyzing the Bundle Size
+- Incomming.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Advanced Configuration
+> To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Prerequisites
 
-### Deployment
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> Install a text-editor you prefer. [Code editors](https://desarrolloweb.com/colecciones/editores-codigo).
 
-### `npm run build` fails to minify
+> You need a database
+- [SQLlite](https://www.sqlite.org/index.html)
+- [MySQL](https://www.mysql.com/)
+- [Postgresql](https://www.postgresql.org/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> [Ruby](https://www.ruby-lang.org/en/downloads/)
+
+
+> [Ruby on Rails Framework](https://rubyonrails.org/)
+
+### Setup
+
+Clone this repository to your desired folder:
+
+> You must have an account on git hub. [Git Hub](https://github.com/)
+
+> You must have installed git in your local environment. [Git](https://git-scm.com/download/win)
+
+> If you just want to take a look quickly, make a fork and open the project in the web browser by adding ".dev" instead of ."com" in the repo link.
+- Example : https://github.dev/Goruchie/hello-react-front-end
+
+### Install
+
+Install this project with:
+
+Execute the bundle in your terminal with the path of 
+the directory.
+
+> Execute "rails bundle" in your terminal with the specific path in order to add all the gems.
+> Execute "npm install" in your terminal with the specific path in order to add all the gems.
+- Or if you are using yarn.
+> Execute "yarn install" in your terminal with the specific path in order to add all the gems.
+
+> You have to change the data bases' crentials.
+
+> When the project si already installed execute:
+ - rake db:setup or rails db:setup
+    - Once this in being executed the nexts actions are generated 
+    - rake db:create
+    - rake db:schema:load
+    - rake db:seed
+
+> If you already have  the project in your local you can pull the lastes commit and execute the next commands:
+  - rails db:reset
+  - rails db:migrate:reset
+  - rails db:seed
+
+### Usage
+
+To run the project, execute the following command:
+
+- Once your credential is ready, execute.
+
+> Ruby bin/rails db:create
+> Ruby bin/rails db:migrate
+> Ruby bin/rails db:seed
+ 
+
+### Run tests
+
+- incomming.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+## 👥 Authors <a name="authors"></a>
+
+👤 **Marcos Gualtero Lourenzo**
+
+- GitHub: [Goruchie](https://github.com/Goruchie)
+- Twitter: [@Goruchie2](https://twitter.com/Goruchie2)
+- LinkedIn: [Marcos Gualtero Lourenzo](https://www.linkedin.com/in/marcosgualtero)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> The next features will be added.
+
+- [ ] Tests.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Goruchie/hello-react-front-end/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Feel free to share your inquiries to our social links provided and we will help you. Don't forget to gift us a ⭐️
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank MICROVERSE for preparing the content to work.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **It can works with another data base**
+
+  - Of couser the idea of use postgresql is because it is a powerfull db that is well suited with rails.
+
+- **Linters are necessary**
+
+  - If you want to have a redable and clean code it is a good option to choose
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
